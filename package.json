@@ -1,12 +1,12 @@
 {
   "name": "edb-parcel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Um teste de empacotamento com parcel",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html -p 8080",
-    "build": "parcel build src/index.html --public-url ./ --no-source-maps --no-cache",
-    "prod": "http-server ./dist -o"
+    "dev": "parcel src/index.html -d ./docs -p 8080",
+    "build": "parcel build src/index.html -d ./docs --public-url ./ --no-source-maps --no-cache",
+    "prod": "http-server ./docs -o"
   },
   "keywords": [
     "parcel",
@@ -17,8 +17,9 @@
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
     "http-server": "^0.11.1",
-    "node-sass": "^4.8.3",
-    "parcel-bundler": "^1.7.0",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-clean-dist": "0.0.6",
     "standard": "^11.0.1"
   }
 }
