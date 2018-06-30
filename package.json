@@ -1,25 +1,40 @@
 {
   "name": "edb-parcel",
-  "version": "0.2.0",
-  "description": "Um teste de empacotamento com parcel",
+  "version": "0.3.0",
+  "description": "Exemplo de uso do parcel-bundler",
   "main": "index.js",
-  "scripts": {
-    "dev": "parcel src/index.html -d ./docs -p 8080",
-    "build": "parcel build src/index.html -d ./docs --public-url ./ --no-source-maps --no-cache",
-    "prod": "http-server ./docs -o"
+  "directories": {
+    "doc": "docs"
   },
-  "keywords": [
-    "parcel",
-    "javascript"
-  ],
-  "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
-  "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
     "http-server": "^0.11.1",
     "node-sass": "^4.9.0",
-    "parcel-bundler": "^1.8.1",
+    "parcel-bundler": "^1.9.3",
     "parcel-plugin-clean-dist": "0.0.6",
     "standard": "^11.0.1"
-  }
+  },
+  "scripts": {
+    "dev": "parcel src/index.html -d ./docs -p 8080 --no-cache",
+    "build": "parcel build src/index.html -d ./docs --public-url ./ --no-source-maps --no-cache",
+    "prod": "http-server ./docs -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalbocca/edb-parcel.git"
+  },
+  "keywords": [
+    "parcel",
+    "bundler",
+    "edb",
+    "exemplo",
+    "javascript"
+  ],
+  "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalbocca/edb-parcel/issues"
+  },
+  "homepage": "https://github.com/digitalbocca/edb-parcel#readme"
 }

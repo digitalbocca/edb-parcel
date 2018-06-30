@@ -8,6 +8,11 @@
 
 ## CHANGELOG
 
+### Mudanças na v0.3.0
+
+- Atualização de dependências.
+- Modificação no package.json.
+
 ### Mudanças na v0.2.0
 
 - Diminuido o tamanho da imagem.
