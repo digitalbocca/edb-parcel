@@ -1,6 +1,6 @@
 {
   "name": "edb-parcel",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Exemplo de uso do parcel-bundler",
   "main": "index.js",
   "directories": {
@@ -10,10 +10,10 @@
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
     "http-server": "^0.11.1",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.9.3",
     "parcel-bundler": "^1.9.7",
     "parcel-plugin-clean-dist": "0.0.6",
-    "standard": "^11.0.1"
+    "standard": "^12.0.1"
   },
   "scripts": {
     "dev": "parcel src/index.html -d ./docs -p 8080 --no-cache",
