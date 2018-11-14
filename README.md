@@ -2,11 +2,16 @@
 
 ## edb-parcel
 
-### v0.5.0
+### v0.6.0
 
 > Teste de uso do parcel-bundler.
 
 ## CHANGELOG
+
+### Mudanças na v0.6.0
+
+- Automatizado o sistema de controle de versão.
+- Atualização de dependências.
 
 ### Mudanças na v0.5.0
 
