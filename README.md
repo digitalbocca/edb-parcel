@@ -2,11 +2,16 @@
 
 ## edb-parcel
 
-### v0.6.0
+### v0.7.0
 
 > Teste de uso do parcel-bundler.
 
 ## CHANGELOG
+
+### Mudanças na v0.7.0
+
+- Removida a imagem mesa.jpg.
+- node-sass substituido por sass.
 
 ### Mudanças na v0.6.0
 
