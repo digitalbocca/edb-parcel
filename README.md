@@ -2,11 +2,15 @@
 
 ## edb-parcel
 
-### v0.7.0
+### v0.8.0
 
 > Teste de uso do parcel-bundler.
 
 ## CHANGELOG
+
+### Mudanças na v0.8.0
+
+- Atualização das mensagens de copyright.
 
 ### Mudanças na v0.7.0
 
@@ -40,4 +44,4 @@
 
 - Início do Controle de versão.
 
-> (c) 2018 - Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
+> (c) 2018-2019 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>

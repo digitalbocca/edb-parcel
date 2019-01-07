@@ -1,21 +1,21 @@
 {
   "name": "edb-parcel",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Exemplo de uso do parcel-bundler",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "config": {
-    "commitMessage": "node-sass substituido por sass"
+    "commitMessage": "Atualização das mensagens de copyright"
   },
   "dependencies": {},
   "devDependencies": {
     "cross-var-no-babel": "^1.2.0",
     "http-server": "^0.11.1",
-    "parcel-bundler": "^1.10.3",
+    "parcel-bundler": "^1.11.0",
     "parcel-plugin-clean-dist": "0.0.6",
-    "sass": "^1.15.1",
+    "sass": "^1.15.3",
     "standard": "^12.0.1"
   },
   "scripts": {
