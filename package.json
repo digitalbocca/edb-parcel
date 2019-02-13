@@ -1,13 +1,13 @@
 {
   "name": "edb-parcel",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Exemplo de uso do parcel-bundler",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "config": {
-    "commitMessage": "Atualização das mensagens de copyright"
+    "commitMessage": "HTML migrado para PUG"
   },
   "dependencies": {},
   "devDependencies": {
@@ -15,12 +15,13 @@
     "http-server": "^0.11.1",
     "parcel-bundler": "^1.11.0",
     "parcel-plugin-clean-dist": "0.0.6",
-    "sass": "^1.15.3",
+    "pug": "^2.0.3",
+    "sass": "^1.17.0",
     "standard": "^12.0.1"
   },
   "scripts": {
-    "dev": "parcel src/index.html -d ./docs -p 8080 --no-cache",
-    "build": "parcel build src/index.html -d ./docs --public-url ./ --no-source-maps --no-cache",
+    "dev": "parcel src/index.pug -d ./docs -p 8080 --no-cache",
+    "build": "parcel build src/index.pug -d ./docs --public-url ./ --no-source-maps --no-cache",
     "prod": "http-server ./docs -o",
     "git": "npm run gst && npm run gad && npm run gco && npm run gta && npm run gpu",
     "gst": "git status",

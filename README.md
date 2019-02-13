@@ -2,11 +2,16 @@
 
 ## edb-parcel
 
-### v0.8.0
+### v0.9.0
 
 > Teste de uso do parcel-bundler.
 
 ## CHANGELOG
+
+### Mudanças na v0.9.0
+
+- HTML migrado para PUG.
+- Atualização de dependências.
 
 ### Mudanças na v0.8.0
 
