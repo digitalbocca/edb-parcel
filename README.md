@@ -2,11 +2,17 @@
 
 ## edb-parcel
 
-### v0.9.0
+### v0.10.0
 
 > Teste de uso do parcel-bundler.
 
 ## CHANGELOG
+
+### Mudanças na v0.10.0
+
+- Adicionado plugin purgecss.
+- Implementada a geração do bundle report.
+- Atualização de dependências.
 
 ### Mudanças na v0.9.0
 
