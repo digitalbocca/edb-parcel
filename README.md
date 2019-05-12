@@ -2,11 +2,16 @@
 
 ## edb-parcel
 
-### v0.10.0
+### v0.11.0
 
 > Teste de uso do parcel-bundler.
 
 ## CHANGELOG
+
+### Mudanças na v0.11.0
+
+- Atualizada URL do favicon EDB.
+- Atualização de dependências.
 
 ### Mudanças na v0.10.0
 

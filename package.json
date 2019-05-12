@@ -1,13 +1,13 @@
 {
   "name": "edb-parcel",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Exemplo de uso do parcel-bundler",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "config": {
-    "commitMessage": "Implementada a geração do bundle report"
+    "commitMessage": "Atualização de dependências"
   },
   "dependencies": {},
   "devDependencies": {
@@ -16,10 +16,10 @@
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-bundle-visualiser": "^1.2.0",
     "parcel-plugin-clean-dist": "0.0.6",
-    "parcel-plugin-purgecss": "^2.1.0",
+    "parcel-plugin-purgecss": "^2.1.2",
     "parcel-plugin-url-loader": "^1.3.1",
     "pug": "^2.0.3",
-    "sass": "^1.17.3",
+    "sass": "^1.20.1",
     "standard": "^12.0.1"
   },
   "scripts": {
