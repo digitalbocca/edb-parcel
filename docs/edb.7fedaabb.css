@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Exo+2|Roboto+Slab");
+body, html {
+  background-color: #ecf0f1;
+  font-family: "Exo 2", sans-serif;
+  margin: 0rem;
+  min-height: 100vh;
+  padding: 0rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 0 20px 3px #7f8c8d;
+  border-radius: 0.25rem;
+  margin: 1rem;
+  max-width: 30rem;
+}
+
+.card > .card-body {
+  padding: 1rem;
+}
+
+.card > .card-topo {
+  min-width: 100%;
+  max-width: 100%;
+  padding: 0rem;
+  margin: 0rem;
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
+}
+
+.card > .card-topo > img {
+  min-width: 100%;
+  max-width: 100%;
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0rem;
+  min-height: 100vh;
+  padding: 0rem;
+}
+
+.copy {
+  color: #7f8c8d;
+}
+
+/**
+ * * ATENÇÃO
+ * *
+ * * A Classe a seguir é apenas para testar o funcionamento do purgecss
+ * */
+.nutil {
+  display: flex;
+  flex-direction: column;
+  color: #7f8c8d;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0rem;
+  min-height: 100vh;
+  padding: 0rem;
+  background-color: #ecf0f1;
+  font-family: "Exo 2", sans-serif;
+  margin: 0rem;
+  min-height: 100vh;
+  padding: 0rem;
+  font-family: "Roboto Slab", serif;
+  background-color: #fff;
+  box-shadow: 0 0 20px 3px #7f8c8d;
+  border-radius: 0.25rem;
+  margin: 1rem;
+  max-width: 30rem;
+  padding: 1rem;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 0rem;
+  margin: 0rem;
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
+  min-width: 100%;
+  max-width: 100%;
+  border-radius: 0.25rem 0.25rem 0rem 0rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0rem;
+  min-height: 100vh;
+  padding: 0rem;
+  color: #7f8c8d;
+}
+
+/*# sourceMappingURL=/edb.7fedaabb.css.map */

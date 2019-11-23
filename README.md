@@ -2,11 +2,15 @@
 
 ## edb-parcel
 
-### v0.13.0
+### v0.14.0
 
 > Teste de uso do parcel-bundler.
 
 ## CHANGELOG
+
+### Mudanças na v0.14.0
+
+- Atualização de dependências.
 
 ### Mudanças na v0.13.0
 
