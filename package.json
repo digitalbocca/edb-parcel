@@ -1,13 +1,13 @@
 {
   "name": "edb-parcel",
-  "version": "0.13.0",
+  "version": "0.14.1",
   "description": "Exemplo de uso do parcel-bundler",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "config": {
-    "commitMessage": "Atualização de dependências"
+    "commitMessage": "Correção no build"
   },
   "dependencies": {},
   "devDependencies": {
