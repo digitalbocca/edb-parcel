@@ -2,11 +2,17 @@
 
 ## edb-parcel
 
-### v0.14.1
+### v0.15.0
 
 > Teste de uso do parcel-bundler.
 
 ## CHANGELOG
+
+### Mudanças na v0.15.0
+
+- Atualização na exibição de datas.
+- Trocado o plugin que limpa a pasta docs.
+- Atualização de dependências.
 
 ### Mudanças na v0.14.1
 
@@ -76,4 +82,4 @@
 
 - Início do Controle de versão.
 
-> (c) 2018-2019 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
+> (c) 2018-2020 Estúdio Digital Bocca - <https://estudiodigitalbocca.com.br>
