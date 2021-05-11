@@ -1,0 +1,1 @@
+console.log("©2021 - Estúdio Digital Bocca");

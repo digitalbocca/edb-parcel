@@ -1,3 +1,5 @@
 'use strict'
 
-console.log('©2020 - Estúdio Digital Bocca')
+import * as style from './../sass/edb.sass'
+
+console.log('©2021 - Estúdio Digital Bocca')
