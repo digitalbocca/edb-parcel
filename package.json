@@ -18,7 +18,7 @@
     "@squoosh/cli": "^0.6.4",
     "cross-var-no-babel": "^1.2.0",
     "http-server": "^0.12.3",
-    "parcel": "^2.0.0-beta.2",
+    "parcel": "^2.8.3",
     "postcss": "^8.2.14",
     "postcss-custom-properties": "^11.0.0",
     "postcss-import": "^14.0.1",
